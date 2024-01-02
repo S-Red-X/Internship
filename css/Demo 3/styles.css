@@ -1,0 +1,89 @@
+.test1{
+    height: 150px;
+    width: 10%;
+    background-color: yellow;
+    border: 10px solid red;
+    border-top: 10px solid darkred;
+    border-left: 10px solid darkred;
+    box-sizing: border-box;
+    border-top-right-radius: 50px;
+    float: left;
+}
+.test2{
+    height: 100%;
+    width: 100%;
+    border: 10px solid red;
+    border-bottom: 10px solid darkred;
+    border-right: 10px solid darkred;
+    box-sizing: border-box;
+    border-top-right-radius: 40px;
+    float: left;
+}
+
+.test3{
+    height: 150px;
+    width: 10%;
+    background-color: yellow;
+    border: 10px solid red;
+    border-top: 10px solid darkred;
+    border-left: 10px solid darkred;
+    box-sizing: border-box;
+    border-top-left-radius: 50px;
+    float: left;
+}
+.test4{
+    height: 100%;
+    width: 100%;
+    border: 10px solid red;
+    border-bottom: 10px solid darkred;
+    border-right: 10px solid darkred;
+    box-sizing: border-box;
+    border-top-left-radius: 40px;
+    float: left;
+}
+
+
+
+.test5{
+    height: 150px;
+    width: 10%;
+    background-color: yellow;
+    border: 10px solid red;
+    border-top: 10px solid darkred;
+    border-left: 10px solid darkred;
+    box-sizing: border-box;
+    border-bottom-right-radius: 50px;
+    float: left;
+}
+.test6{
+    height: 100%;
+    width: 100%;
+    border: 10px solid red;
+    border-bottom: 10px solid darkred;
+    border-right: 10px solid darkred;
+    box-sizing: border-box;
+    border-bottom-right-radius: 40px;
+    float: left;
+}
+
+.test7{
+    height: 150px;
+    width: 10%;
+    background-color: yellow;
+    border: 10px solid red;
+    border-top: 10px solid darkred;
+    border-left: 10px solid darkred;
+    box-sizing: border-box;
+    border-bottom-left-radius: 50px;
+    float: left;
+}
+.test8{
+    height: 100%;
+    width: 100%;
+    border: 10px solid red;
+    border-bottom: 10px solid darkred;
+    border-right: 10px solid darkred;
+    box-sizing: border-box;
+    border-bottom-left-radius: 40px;
+    float: left;
+}

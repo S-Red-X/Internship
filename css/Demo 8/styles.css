@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+}
+.main{
+    height: 864px;
+    width: 1005;
+    background-image:url(background.jpg);
+    background-size: 100% 100%;
+}
+.nav{
+    height: 15%;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.142);
+}
+.logo{
+    float: left;
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+}
+.logo h1{
+    color: orange;
+    font-size: 60px;
+    margin-left: 80px;
+    text-shadow: 2px 2px black;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.list{
+    float: left;
+    width: 50%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+
+li{
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    margin-top: 31px;
+    margin-left: 36px;
+}
+
+.search{
+    float: left;
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.search input{
+    margin-top: 31px;
+    border: 2px solid orange;
+    background: white;
+    padding:11px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    margin-left: 50px;
+    margin-top: 37px;
+}
+.nav button{
+    margin-left: -4px;
+    color: white;
+    background-color: orange;
+    border: 2px solid orange;
+    padding:11px;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.box1{
+    width: 50%;
+    height:85%;
+    /* background-color: blueviolet; */
+    float: left;
+}
+.box1 .blank{
+    height: 100%;
+    width: 10%;
+    float: left;
+}
+
+.box1 h1{
+    font-size: 99px;
+    display: inline-block;
+    color: white;
+    margin-bottom: 5px;
+    width: 80%;
+}
+.box1 span{
+    font-size: 120px;
+    display: inline-block;
+    color: orange;
+    text-shadow: 2px 2px black;
+
+}
+
+.box2{
+    width: 50%;
+    height:85%;
+    /* background-color: gray; */
+    float: left;
+}
+
+.box1 p{
+    text-align: left;
+    width: 80%;
+}
+
+.box1 p{
+    color: white;
+}
+
+.b1{
+    color: white;
+    background-color: orange;
+    float: left;
+    padding: 10px;
+    padding-left:30px ;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+.box2 .login{
+    align-content: center;
+    height: 550px;
+    width: 60%;
+    margin-top: 80px;
+    margin-left: 80px;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 white;
+    padding: 10px;
+}
+
+.logh{
+    color: orange;
+    background-color: white;
+    width: 100%;
+    height: 65px;
+    border-radius: 10px;
+    font-size: 40px;
+}
+.login input{
+    border: 0;
+    border-bottom: 2px solid orange;
+    background-color:black;
+    width: 100%;
+    height: 35px;
+    margin-top: 41px;
+}
+.lob{
+    margin-top: 41px;
+    color: white;
+    background-color: orange;
+    width: 100%;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 20px;  
+}
+
+.login p{
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+li i{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.ico{
+    font-size: 50px;
+    margin-left: 17px;
+    padding: 0;
+    color: orange;
+    background-color: white;
+    border-radius: 45px;
+    text-align: center;
+    height: 52px;
+}
+
+.item{
+    padding-left: 0px;
+}
+
+.item li{
+    padding: 10px;   
+}

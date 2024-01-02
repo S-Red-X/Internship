@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+    body{
+        background-image:url(Student_img.jpg);
+        background-size: cover;
+    }
+    .main{
+        margin-top: 200px;
+        height: 400px;
+        width: 60%;
+    }
+    form{
+        width: 50%;
+        height: 80%;
+        float: left;
+    }
+    input{
+        float: left;
+        width: 100%;
+        border-top: 0;
+        border-right: 0;
+        border-left:0 ;
+    }
+    label{
+        float: left;
+    }
+    fieldset{
+        border: 0px;
+        background-color: white;
+    }
+    .main2{
+        float: left;
+        height: 471px;
+        width: 50%;
+        background-image:url(student2.jpeg);
+        background-size: cover;
+    }
+    .main3{
+        height: 10%;
+        width: 100%;
+        float: left;
+        background-color: rgba(0, 0, 0, 0.432)
+    }
+    button{
+        width: 47%;
+        margin: 5px;
+        padding: 10px;
+        float: left;
+        background-color: rgb(25, 25, 194);
+        color: white;
+    }
+    </style>
+</head>
+<body>
+<center>
+    <div class="main">
+
+        <div class="main3">
+            <big>
+                <pre style="color: white;">Student Registration Form</pre>
+            </big>
+        </div>
+
+        <div class="main2"></div>
+
+        <form action="" method="post">
+
+        <fieldset>
+
+            <br>
+            
+            <label>Full Name :-</label>
+            <br>
+            <input name="Ename" type="text" placeholder="Enter Your Name..." maxlength="20" required><br><br>
+            
+            <label> Email Address :-</label>
+            <br>
+            <input name="Email Address" type="email" placeholder="Enter Your Email..." required><br><br>
+            
+            <label>Phone Number :-</label>
+            <br>
+            <input name="Enumber" type="number" placeholder="Enter  Phone Number..." maxlength="10"><br><br>
+            
+            <label for="">Gender :-</label>
+            <br>
+            <input type="text" name="Gender" placeholder="Male/Female"><br><br>
+
+            <label>Address :-</label>
+            <br>
+            <input class="holder" name="Address" type="text" placeholder="Enter Address..." ><br><br>
+            
+            <label>Date Of Birth :-</label>
+            <br>
+            <input class="holder" name="DOB" type="date" ><br><br>
+            
+            <label>Department Name :-</label>
+            <br>
+            <input name="Department" type="text" placeholder="Enter Department Name..."><br><br>
+            
+           <center> 
+            <button type="submit">Submit</button>
+            <button type="reset">Clear Form</button>
+           </center>
+           <br>
+           <br>
+
+        </fieldset>
+    </form>
+</div>
+</center>
+</body>
+</html>

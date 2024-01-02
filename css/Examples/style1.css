@@ -1,0 +1,181 @@
+p{
+    color: red;
+}
+#data1{
+    color: blue;
+}
+.data2{
+    color: green;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    margin-top: 20px;
+
+    /* boerder normal property */
+
+    /* border-color: blue;
+    border-width: 10px;
+    border-style: solid; */
+
+    /* bordeer mixed property */
+    border:5px dotted green ;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    background-color: brown;
+    
+     /* boerder normal property for right side */
+     border-right-width: 10px;
+     border-right-color: blue;
+     border-right-style: solid;
+     
+    /* boerder mixed property for right side */
+    border-right:5px dotted green ;
+
+
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    background-color: brown;
+   
+    /* boerder normal property for left side */
+    border-left-width: 10px;
+    border-left-color: blue;
+    border-left-style: solid;
+    
+   /* boerder mixed property for left side */
+   border-left:5px dotted green ;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    background-color: brown;
+    /* boerder normal property for top side */
+    border-top-width: 10px;
+    border-top-color: blue;
+    border-top-style: solid;
+    
+   /* boerder mixed property for right side */
+   border-top:5px dotted green ;
+    
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    background-color: brown;
+    /* boerder normal property for top side */
+    border-bottom: 10px;
+    border-bottom-color: blue;
+    border-bottom-style: solid;
+    
+   /* boerder mixed property for right side */
+   border-bottom:5px dotted green ;
+    
+    
+}
+
+.box_sizing{
+    height: 100px;
+    width: 25%;
+    float: left;
+    background-color: lightblue;
+    border: 10px solid black;
+
+    /* main property */
+    box-sizing: border-box;
+}
+
+.box_outline{
+    margin-top: 100px;
+    margin-left: 100px;
+
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 500px;
+    width: 50%;
+    /* margin: 50px; */
+    border: 5px solid black;
+    outline-width: 10px;
+    outline-color: peru;
+    outline-style: double;
+    outline-offset: 20px;
+}
+
+.box_radius{
+    margin-top: 100px;
+    margin-left: 200px;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(250, 49, 49);
+    float: left;
+
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* boerder radius property */
+    border-top-right-radius: 50px;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+
+    /* boerder radius mixed property */
+    /* border-radius: 50%; */
+    border: 10px solid black;
+}
+
+.box_radius1{
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(250, 49, 49);
+    float: left;
+
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* boerder radius property */
+    /* border-top-right-radius: 50px;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px; */
+
+    /* boerder radius mixed property */
+    border-radius: 50%;
+    border: 10px solid black;
+}
+
+.box_radius2{
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(250, 49, 49);
+    float: left;
+
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* boerder radius property */
+    /* border-top-right-radius: 100px; */
+    border-top-left-radius:100px;
+    /* border-bottom-left-radius:100px; */
+    border-bottom-right-radius:100px;
+
+    /* boerder radius mixed property */
+    /* border-radius: 50%; */
+    border: 10px solid black;
+}

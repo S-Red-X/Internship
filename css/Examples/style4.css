@@ -1,0 +1,172 @@
+
+body{
+    /* background-image: url(img1.jpg); */
+    background-size: cover;
+}
+.box_color{
+    height: 400px;
+    width: 10%;
+    border-radius: 50px;
+    margin-top: 5px;
+    float: left;
+    margin-left: 20px;
+    /* name color */
+    background-color:red;
+    padding: 100px;
+
+    /* hex color format */
+    /* black */
+    /* background-color: #000; */
+    /* white */
+    /* background-color: #fff; */
+
+    /* rgb color format */
+    /* background-color: rgb(31, 31, 59); */
+
+    /* rgba color format */
+    /* background-color: rgba(163, 34, 34, 0.5); */
+
+    /* hsl color format */
+    /* background-color: hsl(hue, saturation, lightness); */
+}
+.box_color2{
+    height: 400px;
+    width: 10%;
+    border-radius: 50px;
+    margin-top: 5px;
+    float: left;
+    margin-left: 20px;
+    /* hex color format */
+    background-color: #000;
+    padding: 100px;
+
+}.box_color3{
+    height: 400px;
+    width: 10%;
+    border-radius: 50px;
+    margin-top: 5px;
+    float: left;
+    margin-left: 20px;
+    padding: 100px;
+
+    /* rgb color format */
+    background-color: rgb(31, 31, 59);
+}.box_color4{
+    height: 400px;
+    width: 10%;
+    border-radius: 50px;
+    margin-top: 5px;
+    float: left;
+    margin-left: 20px;
+    padding: 100px;
+
+     /* rgba color format */
+    background-color: rgba(163, 34, 34, 0.5);
+
+}
+.box_color5{
+    height: 300px;
+    width: 20%;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    /* margin-top: 100px; */
+
+    border: 10px solid white;
+    float: left;
+    margin-left: 30px;
+    padding: 50px;
+
+     /* hsl color format */
+    background-color: hsl(20, 10%, 40%);
+}
+.box_color6{
+    height: 300px;
+    width: 20%;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    /* margin-top: 100px; */
+
+    border: 10px solid white;
+
+    float: left;
+    margin-left: 50px;
+    padding: 50px;
+    background-image: url(img1.jpg);
+    background-size: cover;
+
+     /* gradient color format */
+    background-image: linear-gradient(yellow,orange,red);
+}
+.box_color7{
+    height: 300px;
+    width: 20%;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    /* margin-top: 100px; */
+
+    border: 10px solid white;
+
+    float: left;
+    margin-left: 50px;
+    padding: 50px;
+    background-image: url(img1.jpg);
+    background-size: cover;
+
+     /* gradient color format */
+    background-image: radial-gradient(yellow,orange,red);
+}
+.box_color8{
+    height: 300px;
+    width: 20%;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    /* margin-top: 100px; */
+
+    border: 10px solid white;
+
+    float: left;
+    margin-left: 50px;
+    padding: 50px;
+    /* background-image: url(img1.jpg); */
+    /* background-size: cover; */
+
+     /* gradient color format */
+    background-image: linear-gradient(to right,black,rgba(255, 255, 255, 0) );
+}
+
+.test_box{
+    height: 400px;
+    width: 25%;
+    border-radius: 50px;
+    float: left;
+    margin-left: 20px;
+    background-color:white;
+    padding: 100px;
+    margin-left: 28%;
+    margin-top: 80px;
+
+    /* box Shadow Property */
+    /* box-shadow: x y blur size color inst; */
+    box-shadow: 4px 5px 10px 5px  inset black ;
+    background-image: url(img1.jpg);
+    background-size: 900px 900px;
+    background-repeat: no-repeat;
+
+    /* overflow */
+
+    overflow: hidden;
+    overflow-y: scroll;
+    /* overflow-x: scroll; */
+}
+
+p{
+    justify-content: center;
+    text-align: justify;
+    margin-top: 100px;
+    color: white;
+}
+
+
+.test_h1{
+    color: white;    
+}

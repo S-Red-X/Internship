@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Employee Registration Form</title>
+    <style>
+        label{
+            float: left;
+            /* clear: left; */
+            color: rgb(207, 248, 207);
+        }
+        input{
+            float: left;
+            color: white;
+            border-radius: 5px;
+            background-color: rgb(219, 255, 219);
+        }
+        textarea{
+            /* float: left; */
+            background-color: rgb(219, 255, 219);
+        }
+        body{
+            background-image:url(naturef.jpg);
+            background-size: cover;
+        }
+        h1{
+            margin-top: 150px;
+            color: white;
+            font-family: monospace;
+            /* border-color: greenyellow; */
+            text-shadow:0 0 10px rgb(0, 255, 47) , 0 0 20px rgb(153, 255, 0) ,  0 0 30px rgb(153, 255, 0) ;
+        }
+        button{
+            border-radius: 6px;
+            background-color: lightgreen;
+            padding: 8px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        legend{
+            color: white;
+            border: 2px;
+        }
+        fieldset{
+            background-color: rgba(255, 255, 255, 0.234);
+            backdrop-filter: blur(10px);
+        }
+        input[type="date" i]{
+            color: black;
+        }
+        button:hover{
+            background-color: rgb(70, 232, 70);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <center><big ><h1>Employee Registration Form </h1></big></center><br><br>
+   <center> 
+    <form style="width: 50%;" action="" method="post">
+        <fieldset style="border-radius: 10px;">
+            <br>
+            <legend>Registration Info</legend>
+            <label>Full Name :-</label>
+            <input name="Ename" type="text" placeholder="Enter Your Name..." maxlength="20" required><br><br>
+            
+            <label> Email Address :-</label>
+            <input name="Email Address" type="email" placeholder="Enter Your Email..." required><br><br>
+            
+            <label>Phone Number :-</label>
+            <input name="Enumber" type="number" placeholder="Enter  Phone Number..." maxlength="10"><br><br>
+            
+            <label>Address :-</label>
+            <textarea name="Address" id="" cols="80" rows="4">Enter Address here...</textarea><br><br>
+            
+            <label>Date Of Birth :-</label>
+            <input class="holder" name="DOB" type="date" ><br><br>
+            
+            <label>Position/Job title :-</label>
+            <input name="Job" type="text" placeholder="Enter Position/Job title..."><br><br>
+            
+            <label>Department Name :-</label>
+            <input name="Department" type="text" placeholder="Enter Department Name..."><br><br>
+            
+            <label>Employee ID :-</label>
+            <input name="Eid" type="text" placeholder="Enter ID..."><br><br>
+            
+            <label>Emergency Contact Information :-</label>
+            <input name="Enumber2" type="number" placeholder="Enter Number here..."><br><br><br>
+            
+           <center> 
+            <button type="submit">Submit</button>
+            <button type="reset">Clear Form</button>
+           </center>
+           <br>
+
+        </fieldset>
+    </form>
+    </center>
+
+</body>
+</html>

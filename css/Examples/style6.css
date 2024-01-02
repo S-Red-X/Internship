@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+}
+.box{
+    height: 864px;
+    width: 1536px;
+    background-color: rgb(254, 183, 51);
+}
+@media (max-width:1445px) {
+    .box{
+        background-color: red;
+    }
+}
+@media (max-width:1436px) {
+    .box{
+        background-color: purple;
+    }
+}
+@media (max-width:1236px) {
+    .box{
+        background-color: yellow;
+    }
+}
+@media (max-width:936px) {
+    .box{
+        background-color: green;
+    }
+}
+@media (max-width:636px) {
+    .box{
+        background-color: black;
+    }
+}

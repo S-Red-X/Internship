@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+<form action="" method="post" enctype="multipart/form-data">
+    <fieldset>
+        <legend>Info</legend>
+        <label >Name :-</label>
+        <input name="sname"  type="text" required placeholder="Enter your Name..." autofocus><br><br>
+        <label>Email :-</label>
+        <input name="semail" type="email" required placeholder="Enter your email"><br><br>
+        <label>Mobile :-</label>
+        <input name="snumber" type="number" required minlength="10"><br><br>
+        <label>Dob :-</label>
+        <input name="DOB" type="date"><br><br>
+        <label>Gender :-</label>
+        <input name="Gender" type="radio">Male
+        <input name="Gender" type="radio">Female<br><br>
+        <label>Photo :-</label>
+        <input type="file"><br><br>
+    </fieldset>
+    <br><br><br>
+    <fieldset>
+        <legend>Address , Education & Login info</legend>
+        <label>Full Address</label>
+        <Textarea rows="5" cols="15" placeholder="Enter Address here..."></Textarea><br><br>
+        <label>State</label>
+        <select>
+            <option>a</option>
+            <option>b</option>
+            <option>c</option>
+            <option>d</option>
+        </select><br><br>
+        <label>Pin code</label>
+        <input type="number"><br><br>
+        <label>Subject</label>
+        <input type="checkbox" checked>HTML
+        <input type="checkbox">CSS
+        <input type="checkbox">JS <br><br>
+        <label>Username</label>
+        <input type="text" required minlength="8" maxlength="15" placeholder="Enter username..."><br><br>
+        <label>Password</label>
+        <input type="password" required minlength="6" placeholder="Enter your password..."><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+    </fieldset>
+</form>    
+</body>
+</html>

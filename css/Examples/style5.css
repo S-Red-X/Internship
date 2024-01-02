@@ -1,0 +1,100 @@
+
+.box1:hover{
+    background-color: brown;
+    transform:rotate(30deg);
+}
+.box2:hover{
+    background-color: green;
+    transform:scale(1.5 ,1.5);
+}
+.box3:hover{
+    background-color: blue;
+    transform:translate(100px);
+}
+.box4:hover{
+    background-color: brown;
+    transform:skew(10px);
+}
+.box1{
+    float: left;
+    height: 300px;
+    width: 300px;  
+    background-color: purple; 
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.box2{
+    float: left;
+    height: 300px;
+    width: 300px;  
+    background-color: rgb(237, 94, 94); 
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.box3{
+    float: left;
+    height: 300px;
+    width: 300px;  
+    background-color: rgb(70, 192, 254); 
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.box4{
+    float: left;
+    height: 300px;
+    width: 300px;  
+    background-color: purple; 
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+h1{
+    text-align: center;
+}
+.static{
+    float: left;
+    position: static;
+    height: 2000px;
+    width: 300px;
+    background-color: rgb(253, 95, 95);
+    top:50px;
+    bottom:50px;
+    left:50px;
+    right:50px;
+}
+.relative{
+    float: left;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(91, 91, 253);
+    top:300px;
+    bottom:50px;
+    left:400px;
+    right:50px;
+
+}
+.absolute{
+    float: left;
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    background-color: rgb(113, 255, 113);
+    top:50px;
+    bottom:50px;
+    left:280px;
+    right:50px;
+
+}
+.fixed{
+    float: left;
+    position: fixed;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 187, 61);
+    top:360px;
+    bottom:50px;
+    left:500px;
+    right:50px;
+
+}

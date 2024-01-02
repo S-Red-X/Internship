@@ -1,0 +1,141 @@
+body{
+    background-image: url(background.jpg);
+    background-size: 100% 110%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    height: 862px;
+    width: 50%;
+    /* background-color: blueviolet; */
+    float: left;
+    background-image: url(img1.png);
+    /* background-blend-mode: color-burn; */
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+    background-position: 125px 370px;
+}
+
+.left{
+    float: left;
+    height: 500px;
+    width: 30%;
+}
+.right{
+    float: right;
+    height: 500px;
+    width: 30%;
+}
+
+.ank1{
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.597);
+    float: left;
+    margin-left: 40px;
+    width: 120px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 3px solid red;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+.ank2{
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.597);
+    float:right;
+    margin-right: 40px;
+    width: 120px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 3px solid red;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+.box2{
+    height: 843px;
+    width: 50%;
+    background-color: grey;
+    float: left;
+}
+
+
+.box3{
+    width: 33.33%;
+    height: 844px;
+    /* background-color: gray; */
+    float: left;
+}
+
+form{
+    margin-top: 50px;
+    height: 83%;
+    /* width: 100%; */
+    width: 600px;
+    margin-left: 68px;
+}
+
+fieldset{
+    text-align: center;
+    height: 100%;
+    border-radius: 30px;
+    border-right: 4px solid  red;
+    border-left: 4px solid  red;
+    border-top: 0;
+    border-bottom: 0;
+    box-shadow: 0px 0px 15px white;
+    background-color: rgba(0, 0, 0, 0.725);
+}
+
+fieldset h1{
+    color: white;
+}
+
+fieldset input{
+    width: 97%;
+    border-right: 4px solid  red;
+    border-left: 4px solid  red;
+    border-radius: 40px;
+    height: 40px;
+    background-color: black;
+    box-shadow: 0px 0px 15px white;
+    text-align: center;
+}
+
+fieldset select{
+    width: 97%;
+    border-right: 4px solid  red;
+    border-left: 4px solid  red;
+    border-radius: 40px;
+    height: 40px;
+    background-color: black;
+    box-shadow: 0px 0px 15px white;
+    text-align: center;
+    color: red;
+}
+
+fieldset textarea
+{
+    width: 100%;
+    border-radius: 50px;
+    border-bottom: 4px solid red;
+    box-shadow: 0px 0px 15px white;
+    background-color: black;
+
+    text-align: center;
+}
+
+button{
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    padding: 15px;
+}

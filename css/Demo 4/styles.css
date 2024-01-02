@@ -1,0 +1,47 @@
+.out_box{
+    height: 847px;
+    width: 100%;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.box_a{
+    height: 40%;
+    width: 44.5%;
+    border: 5px solid black;
+    box-sizing: border-box;
+    float: left;
+    margin: 40px;
+}
+
+.box_in{
+    height: 76%;
+    width: 90%;
+    margin-top: 6%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 6%;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.box_in2{
+    height: 76%;
+    width: 90%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+.box_in3{
+    height: 76%;
+    width: 90%;
+    margin-top: 4%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
